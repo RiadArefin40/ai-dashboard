@@ -36,10 +36,6 @@ export default function Dashboard() {
   return (
     <div className="p-6 max-w-[1920px] mx-auto">
       <div className="flex flex-col md:flex-row justify-between items-center mb-8">
-        <div>
-          {/* <h1 className="text-2xl font-semibold text-gray-900 dark:text-white">Good Morning Norris! ⭐</h1>
-          <p className="text-gray-600 mt-1 dark:text-gray-400">Here's what's happening with your store today.</p> */}
-        </div>
         <DateRangeSelector onPeriodChange={handleDateRangeChange} />
       </div>
 
