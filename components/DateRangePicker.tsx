@@ -65,14 +65,6 @@ export default function DateRangePicker({ onRangeSelect }: DateRangePickerProps)
               day_range_middle: "aria-selected:bg-blue-100 dark:aria-selected:bg-blue-900/30 aria-selected:text-gray-900 dark:aria-selected:text-gray-100",
               day_hidden: "invisible",
             }}
-            components={{
-              IconLeft: ({ ...props }) => (
-                <ChevronLeftIcon className="h-4 w-4" {...props} />
-              ),
-              IconRight: ({ ...props }) => (
-                <ChevronRightIcon className="h-4 w-4" {...props} />
-              ),
-            }}
           />
         </div>
       )}
