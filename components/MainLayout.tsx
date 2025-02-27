@@ -12,10 +12,10 @@ export default function MainLayout({ children }: MainLayoutProps) {
 
   return (
     <div className="min-h-screen bg-gray-50 dark:bg-gray-900">
-      <Sidebar isOpen={sidebarOpen} onClose={() => setSidebarOpen(false)} />
+      {/* <Sidebar isOpen={sidebarOpen} onClose={() => setSidebarOpen(false)} /> */}
 
       {/* Main content */}
-      <div className="lg:pl-64">
+      <div className="">
         <Header onOpenSidebar={() => setSidebarOpen(true)} />
         <main className="relative">{children}</main>
       </div>
